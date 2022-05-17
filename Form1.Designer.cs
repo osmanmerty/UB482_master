@@ -1116,10 +1116,14 @@ namespace UB482
             // timeIntervalTextBox
             // 
             this.timeIntervalTextBox.Location = new System.Drawing.Point(862, 15);
-            this.timeIntervalTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.timeIntervalTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.timeIntervalTextBox.Name = "timeIntervalTextBox";
             this.timeIntervalTextBox.Size = new System.Drawing.Size(132, 22);
             this.timeIntervalTextBox.TabIndex = 95;
+            // 
+            // serialPort2
+            // 
+            this.serialPort2.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.serialPort2_DataReceived);
             // 
             // button2
             // 
